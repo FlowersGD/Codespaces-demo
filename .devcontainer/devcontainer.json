@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "waitFor": "updateContentCommand",
+  "updateContentCommand": "python3 -m pip install -r .devcontainer/requirements.txt",
+   
+  "customizations": {
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "ms-python.python",
+        "ms-python.pylint",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
