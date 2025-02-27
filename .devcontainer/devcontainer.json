@@ -9,7 +9,8 @@
       "extensions": [
         "ms-python.python",
         "ms-python.pylint",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "ms-python.autopep8"
       ]
     }
   }
